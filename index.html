@@ -9,40 +9,50 @@
 <body>
     <header>
         <nav class="main-nav">
-            <a href="">Logo Empresa</a>
+            <a href="" class="logo-header">Logo Empresa</a>
             <ul>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li>
+                    <a href="#">Servicios</a>
+                </li>
+                <li>
+                    <a href="#">Proyectos</a>
+                </li>
+                <li>
+                    <a href="#">Nosotros</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="form-section">
-            <form action="" class="form-cotiza">
-                <h1>Cotiza tu proyecto</h1>
-                <label for="nombre">
-                    <input type="name" name="nombre" id="nombre" required placeholder="¿Cual es tu nombre?">
-                </label>
-                <label for="mail">
-                    <input type="email" name="mail" id="mail">
-                </label>
-                <label for="tipo-trabajo">
-                    <datalist id="tipo-trabajo" required aria-placeholder="¿Qué proyecto tienes en mente?">
-                        <option value="sandblast">Sandblast</option>
-                        <option value="montajes">Montajes</option>
-                        <option value="recubrimientos">Aplicación de recubrimientos</option>
-                        <option value="logística">Supervisión y logística</option>
-                        <option value="mantenimiento">Mantenimiento industrial</option>
-                        <option value="otros">Otros</option>
-                    </datalist>
-                    <label for="texto">
-                        <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Cuentanos más detalles sobre tu proyecto"></textarea>
+            <div class="form-container">
+                <form action="" class="form-cotiza">
+                    <h1>Cotiza tu proyecto</h1>
+                    <label for="nombre">
+                        <input type="name" name="nombre" id="nombre" required placeholder="¿Cual es tu nombre?">
                     </label>
-                </label>
-            </form>
-        </section>
+                    <label for="mail">
+                        <input type="email" name="mail" id="mail">
+                    </label>
+                    <label for="tipo-trabajo">
+                        <datalist id="tipo-trabajo" required aria-placeholder="¿Qué proyecto tienes en mente?">
+                            <option value="sandblast">Sandblast</option>
+                            <option value="montajes">Montajes</option>
+                            <option value="recubrimientos">Aplicación de recubrimientos</option>
+                            <option value="logística">Supervisión y logística</option>
+                            <option value="mantenimiento">Mantenimiento industrial</option>
+                            <option value="otros">Otros</option>
+                        </datalist>
+                        <label for="texto">
+                            <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Cuentanos más detalles sobre tu proyecto"></textarea>
+                        </label>
+                    </label>
+                </form>
+            </section>
+            </div>
         <section class="ilustracion">
             <img src="" alt="ilustracion">
         </section>
